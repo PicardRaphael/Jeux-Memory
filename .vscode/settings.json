@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 15,
+    "path-intellisense.showHiddenFiles": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "php.suggest.basic": true,
+    "window.zoomLevel": 1,
+    "editor.tabCompletion": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact",
+        "php.suggest.basic": "php"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "css.remoteStyleSheets": [
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      ],
+      "css.fileExtensions": [ "css", "scss"],
+      "editor.quickSuggestions": true,
+      "editor.snippetSuggestions": "top",
+      "emmet.showExpandedAbbreviation": "always",
+    "files.associations": {
+        "*.php": "php"
+    },
+}

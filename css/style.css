@@ -1,0 +1,95 @@
+/*Couleur plateau : #ddddff;*/
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+header {
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+header h1 {
+  font-size: 3em;
+  padding: 0.5em 0;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+#plateau{
+  margin: 5em 5em 2em 5em;
+  width: 50em; /*800px*/
+  height: 30em; /*480px*/
+  background-color: #ddddff;
+  align-self: center
+}
+
+#tentative{
+  height: 200px;
+  width: 200px;
+  background-color:  #ddddff;
+  margin: 5em 0em 0em 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#tentative h1{
+  font-size: 1.5em;
+}
+#tentative p{
+  font-size: 2.5em;
+  color: red;
+  margin-top: 1.5em;
+}
+.carte{
+  width: 100px;
+  height: 100px;
+  margin-left: 0.8em;
+  margin-top: 1em;
+  float: left;
+
+}
+
+.cache{
+  width: 100px;
+  height: 100px;
+  background-color: #aaaaaa;
+  display: inline-block;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  background: url(../images/cards.png);
+  display: none;
+}
+
+/* CUSTOM JQUERY UI PROGRESS BAR START */
+
+.ui-progressbar {
+  margin: 1em 8em;
+  width:  50em;;
+}
+
+.ui-progressbar .ui-progressbar-value {
+  margin: 0;
+}
+
+.ui-progressbar .ui-widget-header {
+  background-color: green;
+}
+
+.progress-label {
+  margin: auto auto;
+  width: 800px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#progress{
+  margin-left: 12em;
+}
+/* CUSTOM JQUERY UI PROGRESS BAR END */
